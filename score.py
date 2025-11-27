@@ -10,7 +10,11 @@ else:
 total = sum(scores)
 avg = total / len(scores)
 
-# Output results
+maximum = max(scores)
+minimum = min(scores)
+
 print("\nScores:", scores)
 print("Sum:", total)
 print("Average:", round(avg, 2))
+print("Maximum:", maximum)
+print("Minimum:", minimum)
